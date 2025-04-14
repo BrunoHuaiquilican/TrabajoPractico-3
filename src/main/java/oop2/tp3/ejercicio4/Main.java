@@ -18,10 +18,14 @@ public class Main {
                 System.out.println(persona.nombre() + " " + persona.apellido());
             }
         }
-
         var persona = repo.buscarId(1L);
-        if (persona != null) {
-            System.out.println(persona.nombre() + " " + persona.apellido());
-        }
+
+        persona.ifPresent(p ->
+                System.out.println(p.nombre() + " " + p.apellido())
+        );
+//        var persona = repo.buscarId(1L);
+//
+//            System.out.println(persona.nombre() + " " + persona.apellido());
+
     }
 }

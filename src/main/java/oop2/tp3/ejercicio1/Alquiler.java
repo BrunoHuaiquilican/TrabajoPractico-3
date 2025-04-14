@@ -1,6 +1,6 @@
 package oop2.tp3.ejercicio1;
 
-public class Alquiler {
+public class  Alquiler {
     private CopiaLibro copia;
     private int diasAlquilados;
 

@@ -16,31 +16,30 @@ public class Cliente {
         double total = 0;
         int puntosAlquilerFrecuente = 0;
         for (Alquiler alquiler : alquileres) {
-            double monto = 0;
+
+            total =  alquiler.copia().libro().calcularPrecio(alquiler.diasAlquilados());
 // determine amounts for each line
-            switch (alquiler.copia().libro().codigoPrecio()) {
-                case Libro.REGULARES:
-                    monto += 2;
-                    if (alquiler.diasAlquilados() > 2)
-                        monto += (alquiler.diasAlquilados() - 2) * 1.5;
-                    break;
-                case Libro.NUEVO_LANZAMIENTO:
-                    monto += alquiler.diasAlquilados() * 3;
-                    break;
-                case Libro.INFANTILES:
-                    monto += 1.5;
-                    if (alquiler.diasAlquilados() > 3)
-                        monto += (alquiler.diasAlquilados() - 3) * 1.5;
-                    break;
-            }
-            total += monto;
-            // sumo puntos por alquiler
-            puntosAlquilerFrecuente++;
+//            switch (alquiler.copia().libro().codigoPrecio()) {
+//                case Libro.REGULARES:
+//                    monto += 2;
+//                    if (alquiler.diasAlquilados() > 2)
+//                        monto += alquiler.copia().libro().calcularPrecio(alquiler.diasAlquilados() - 2);
+//                    break;
+//                case Libro.NUEVO_LANZAMIENTO:
+//                    monto += alquiler.copia().libro().calcularPrecio(alquiler.diasAlquilados());
+//                    break;
+//                case Libro.INFANTILES:
+//                    monto += 1.5;
+//                    if (alquiler.diasAlquilados() > 3)
+//                        monto += alquiler.copia().libro().calcularPrecio(alquiler.diasAlquilados()-3);
+//                    break;
+//            }
+            puntosAlquilerFrecuente += alquiler.copia().libro().calcularPunto(alquiler.diasAlquilados());
             // bonus por dos días de alquiler de un nuevo lanzamiento
-            if ((alquiler.copia().libro().codigoPrecio() == Libro.NUEVO_LANZAMIENTO)
-                    && alquiler.diasAlquilados() > 1) {
-                puntosAlquilerFrecuente++;
-            }
+//            if ((alquiler.copia().libro() == Libro.NUEVO_LANZAMIENTO)
+//                    && alquiler.diasAlquilados() > 1) {
+//                puntosAlquilerFrecuente++;
+//            }
         }
         resultado[0] = total;
         resultado[1] = puntosAlquilerFrecuente;

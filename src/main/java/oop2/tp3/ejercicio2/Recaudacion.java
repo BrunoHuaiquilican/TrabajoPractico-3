@@ -13,14 +13,15 @@ public class Recaudacion {
     public static List<Map<String, String>> where(Map<String, String> options)
             throws IOException {
         List<String[]> csvData = new ArrayList<String[]>();
-        CSVReader reader = new CSVReader(new FileReader("src/main/resources/data.csv"));
+        //CSVReader reader = new CSVReader(new FileReader("src/main/resources/data.csv"));
+        LeerArchivo leerArchivo = new LeerArchivo("src/main/resources/data.csv");
         String[] row = null;
 
-        while ((row = reader.readNext()) != null) {
+        while ((row = leerArchivo.reader.readNext()) != null) {
             csvData.add(row);
         }
 
-        reader.close();
+        leerArchivo.reader.close();
         csvData.remove(0);
 
         if (options.containsKey("company_name")) {
