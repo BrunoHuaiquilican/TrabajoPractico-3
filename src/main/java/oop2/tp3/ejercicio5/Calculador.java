@@ -15,8 +15,8 @@ public class Calculador {
                     .filter(e -> e.nombreEvento().equals(actuacion.nombreEvento()))
                     .findFirst()
                     .orElseThrow(() -> new RuntimeException("Evento no encontrado"));
-            monto = evento.calcularMonto(actuacion.numberoEspectadores());
-            creditos = evento.calcularCredito(actuacion.numberoEspectadores());
+            monto += evento.calcularMonto(actuacion.numberoEspectadores());
+            creditos += evento.calcularCredito(actuacion.numberoEspectadores());
 
 //            switch (tipo) {
 //                case "Drama":

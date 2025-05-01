@@ -5,37 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcd9c89a-477e-4573-842a-41f28f7ec668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroInfatiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroNuevoLanzamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroRegulares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/LeerArchivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/AlquilerAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Cena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Desayuno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Gasto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/TipoDeGasto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Comedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Drama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.log" beforeDir="false" afterPath="$PROJECT_DIR$/mem.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mem.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.script" beforeDir="false" afterPath="$PROJECT_DIR$/mem.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Actuacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Actuacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Calculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Calculador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Comedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Comedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Drama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Drama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +34,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/enriquemolinari/oop2-refactoring.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/BrunoHuaiquilican/TrabajoPractico-3.git&quot;,
     &quot;accountId&quot;: &quot;f60bd753-5bca-4ae1-abc5-71acfbb32ce8&quot;
   }
 }</component>
@@ -72,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EjemploDeUsoDelReporte.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.oop2.tp3.ejercicio4.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.oop2.tp3.ejercicio5.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ejercicio1Test.testPruevaClases.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.Ejercicio2Test.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ejercicio5.test01.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EjemploDeUsoDelReporte.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.oop2.tp3.ejercicio4.Main.executor": "Debug",
+    "Application.oop2.tp3.ejercicio5.Main.executor": "Run",
+    "JUnit.Ejercicio1Test.testPruevaClases.executor": "Coverage",
+    "JUnit.Ejercicio2Test.test1.executor": "Run",
+    "JUnit.Ejercicio5.test01.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.Ejercicio5.test01">
     <configuration name="EjemploDeUsoDelReporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.EjemploDeUsoDelReporte" />
@@ -161,15 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Ejercicio5.test01" />
@@ -190,23 +155,10 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio2Test.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio2Test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TrabajoPractico_3$Ejercicio5_test01.ic" NAME="Ejercicio5.test01 Coverage Results" MODIFIED="1746073466918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio2.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Programacion$Ejercicio1Test_testPruevaClases.ic" NAME="Ejercicio1Test.testPruevaClases Coverage Results" MODIFIED="1745778404270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio2.*</FILTER>
     </SUITE>

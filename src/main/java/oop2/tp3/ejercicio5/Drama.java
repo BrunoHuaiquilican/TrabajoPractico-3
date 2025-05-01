@@ -13,6 +13,6 @@ public class Drama extends Evento{
         return monto;
     }
     public float calcularCredito(int numeroEspectadores) {
-        return Math.max(numeroEspectadores - 30, 0);
+        return (float) Math.max(numeroEspectadores - 30, 0);
     }
 }

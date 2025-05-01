@@ -15,10 +15,10 @@ public class Ejercicio5 {
         var eventos = cargarEventos();
         var factura = crearFactura();
 
-//        String esperado ="Facturación para c1\nEscuela de Rock: 156400.0. Asientos: 158\n"+
-//                "Hamlet: 113000.0. Asientos: 103\nEl Perfume: 40000.0. Asientos: 8\n"+
-//                "Monto ganado: 309400.0\nCréditos ganados: 232.0";
-        String esperado = new Calculador().reporte(factura, eventos);
+        String esperado ="Facturación para c1\nEscuela de Rock: 156400.0. Asientos: 158\n"+
+                "Hamlet: 113000.0. Asientos: 103\nEl Perfume: 40000.0. Asientos: 8\n"+
+                "Monto ganado: 309400.0\nCréditos ganados: 232.0 ";
+//        String esperado = new Calculador().reporte(factura, eventos);
 
         assertEquals(esperado , new Calculador().reporte(factura, eventos));
 

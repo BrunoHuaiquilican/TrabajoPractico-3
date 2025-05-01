@@ -6,14 +6,14 @@ public class Comedia extends Evento{
         super(nombreEvento);
     }
     public float calcularMonto(int numeroEsperctadores){
-        float monto = 3000;
+        float monto = 30000;
         if (numeroEsperctadores > 20) {
             monto += 10000 + 500 * (numeroEsperctadores - 20);
         }
         return monto += 300 * numeroEsperctadores;
     }
     public float calcularCredito(int numeroEspectadores){
-        return (float) Math.floor( numeroEspectadores / 5);
+        return (float) Math.floor( numeroEspectadores / 5) + Math.max(numeroEspectadores - 30, 0);
 
     }
 }
