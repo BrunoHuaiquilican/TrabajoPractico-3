@@ -17,7 +17,7 @@ public class Cliente {
         int puntosAlquilerFrecuente = 0;
         for (Alquiler alquiler : alquileres) {
 
-            total =  alquiler.copia().libro().calcularPrecio(alquiler.diasAlquilados());
+            total =  alquiler.copia().libro().calcularPrecioLibro(alquiler.diasAlquilados());
 // determine amounts for each line
 //            switch (alquiler.copia().libro().codigoPrecio()) {
 //                case Libro.REGULARES:

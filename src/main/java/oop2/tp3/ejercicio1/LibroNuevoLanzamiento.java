@@ -6,7 +6,7 @@ public  class LibroNuevoLanzamiento extends Libro{
         super(nombre , codigoPrecio);
     }
     @Override
-    public double calcularPrecio(int diasAlquiler){
+    public double calcularPrecioLibro(int diasAlquiler){
         return diasAlquiler * COBRO_ALQUILER ;
     }
 

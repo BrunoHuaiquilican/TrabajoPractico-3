@@ -38,10 +38,10 @@ public class ReporteDeGastos {
 
 //            String marcaExcesoComidas = gasto.tipoGasto == TipoDeGasto.CENA && gasto.monto > 5000
 //                    || gasto.tipoGasto == TipoDeGasto.DESAYUNO && gasto.monto > 1000 ? "X" : " ";
-            String marcaExcesoComidas = marcarExeso(gasto);
+            String marcaExcesoComidas = marcarComoExeso(gasto);
 
 //            String mostrarNombreGasto= nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
-            System.out.println(nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
+//            System.out.println(nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
             total += gasto.monto;
         }
 
@@ -51,7 +51,7 @@ public class ReporteDeGastos {
 //        System.out.println("Total de gastos: " + total);
     }
 
-    private String marcarExeso(Gasto gasto) {
+    private String marcarComoExeso(Gasto gasto) {
         String marcaExcesoComidas = gasto.esComida() && gasto.monto > MONTO_MAXIMO ||
                 gasto.esComida() && gasto.monto > MONTO_MINIMO ? "X" : " ";
         return marcaExcesoComidas;

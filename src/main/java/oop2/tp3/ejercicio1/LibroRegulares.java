@@ -7,10 +7,11 @@ public class LibroRegulares extends Libro{
         super(nombre , codigoPrecio);
     }
     @Override
-    public double calcularPrecio(int diasAlquiler){
+    public double calcularPrecioLibro(int diasAlquiler){
         double monto = 2 ;
         if (diasAlquiler > 2){
-        monto =+diasAlquiler * COBRO_ALQUILER  ;
+        monto =+ diasAlquiler * COBRO_ALQUILER  ;
+
         }
         return monto ;
     }

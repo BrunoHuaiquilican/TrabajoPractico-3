@@ -6,7 +6,7 @@ public class LibroInfatiles extends Libro{
         super(nombre, codigoPrecio);
     }
     @Override
-    public double calcularPrecio(int diasAlquiler){
+    public double calcularPrecioLibro(int diasAlquiler){
         double monto = 1.5 ;
         if (diasAlquiler > 3) {
             monto =+ diasAlquiler * COBRO_ALQUILER ;

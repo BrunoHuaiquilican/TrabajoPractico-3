@@ -16,7 +16,7 @@ public class Ejercicio2Test {
         Gasto g1 = new Desayuno(1000);
         ReporteDeGastos reporte = new ReporteDeGastos();
 //        reporte.imprimir(List.of(g1));
-        String esperado = "Expenses 2025-04-28\nGastos de comida:1000\nTotal de gastos:1000" ;
+        String esperado = "Expenses 2025-04-28\nGastos de comida: 1000\nTotal de gastos:1000" ;
         assertEquals(esperado , reporte.imprimir(List.of(g1)));
 //        Expenses 2025-04-27
 //        Desayuno	1000

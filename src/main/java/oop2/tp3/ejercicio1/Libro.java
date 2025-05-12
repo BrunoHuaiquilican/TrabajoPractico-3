@@ -10,7 +10,7 @@ public abstract class Libro {
         this.codigoPrecio = codigoPrecio;
     }
 
-    public abstract double calcularPrecio(int diasAlquiler);
+    public abstract double calcularPrecioLibro(int diasAlquiler);
 
     public int calcularPunto(int diasAlquilier){
         return 1 ;

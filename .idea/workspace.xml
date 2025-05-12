@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcd9c89a-477e-4573-842a-41f28f7ec668" name="Changes" comment="">
+    <list default="true" id="bcd9c89a-477e-4573-842a-41f28f7ec668" name="Changes" comment="Modificaciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Calculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Calculador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Comedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Comedia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Drama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Drama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.lck" beforeDir="false" afterPath="$PROJECT_DIR$/mem.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mem.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.script" beforeDir="false" afterPath="$PROJECT_DIR$/mem.script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroInfatiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroInfatiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroNuevoLanzamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroNuevoLanzamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroRegulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroRegulares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/TipoDeGasto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/Ejercicio2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +59,10 @@
   "keyToString": {
     "Application.EjemploDeUsoDelReporte.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.oop2.tp3.ejercicio4.Main.executor": "Debug",
+    "Application.oop2.tp3.ejercicio4.Main.executor": "Run",
     "Application.oop2.tp3.ejercicio5.Main.executor": "Run",
-    "JUnit.Ejercicio1Test.testPruevaClases.executor": "Coverage",
+    "JUnit.Ejercicio1Test.executor": "Run",
+    "JUnit.Ejercicio1Test.testPruevaClases.executor": "Run",
     "JUnit.Ejercicio2Test.test1.executor": "Run",
     "JUnit.Ejercicio5.test01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,19 +74,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.Ejercicio5.test01">
-    <configuration name="EjemploDeUsoDelReporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.EjemploDeUsoDelReporte" />
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="oop2.tp3.ejercicio4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio4.Main" />
       <module name="oop2-refactoring" />
@@ -90,15 +87,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop2.tp3.ejercicio5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio5.Main" />
+    <configuration name="Ejercicio1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio5.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio2" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio2.Ejercicio1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio1Test.testPruevaClases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio2" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio2.Ejercicio1Test" />
+      <option name="METHOD_NAME" value="testPruevaClases" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Ejercicio5.test01" />
-        <item itemvalue="Application.oop2.tp3.ejercicio5.Main" />
-        <item itemvalue="Application.oop2.tp3.ejercicio4.Main" />
         <item itemvalue="JUnit.Ejercicio2Test.test1" />
-        <item itemvalue="Application.EjemploDeUsoDelReporte" />
+        <item itemvalue="JUnit.Ejercicio1Test.testPruevaClases" />
+        <item itemvalue="Application.oop2.tp3.ejercicio4.Main" />
+        <item itemvalue="JUnit.Ejercicio1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +168,43 @@
       <option name="presentableId" value="Default" />
       <updated>1745583591835</updated>
     </task>
+    <task id="LOCAL-00001" summary="Modificaciones">
+      <option name="closed" value="true" />
+      <created>1746074275395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746074275395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TrabajoPractico_3$Ejercicio5_test01.ic" NAME="Ejercicio5.test01 Coverage Results" MODIFIED="1746073466918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
